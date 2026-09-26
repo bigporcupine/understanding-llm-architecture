@@ -40,7 +40,7 @@ Run the correctness checks with:
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-## Lesson 0：Mini BPE Tokenizer
+## Lesson 0: Mini BPE Tokenizer
 
 A small, dependency-free implementation of Byte Pair Encoding (BPE) in Python.
 It is intended for learning and experimentation: the entire algorithm fits in
@@ -88,8 +88,8 @@ selects one row from that table:
 text -> BPE tokens -> token IDs -> embedding vectors -> model
 ```
 
-This project stops at token IDs; it does not implement a neural network or an
-embedding layer.
+The tokenizer stops at token IDs. The notebook and Transformer tutorial continue
+from those IDs through embeddings, attention, and language-model training.
 
 ## Usage
 
